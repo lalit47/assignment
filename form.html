@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<form method="POST" action="form.html">
+<fieldset>
+ <legend>Personal Information</legend>
+<label for ="fname">First name </label>
+<input type="text" name="fname" placeholder="NAME" autofocus>
+<br>
+<label for="gender">Gender</label>
+<input type="radio" id="radio" name="gender" value="male">Male
+<input type="radio" id="radio" name="gender" value="female">Female<br>
+
+<label for ="lname" >Last name</label>
+<input type ="text" name="lname" autofocus><br>
+<label for="nationality">Nationality</label>
+<select id="nationality" name="nationality">
+  <option value="Canadian"> Canadian</option>
+  <option value="Indian">American</option>
+  <option value="American">Indian</option>
+  <option value="Australian">Pakistani</option>
+</select><br>
+<label for ="lname" >Address</label>
+<textarea name="address" rows="5" cols="30">
+</textarea></fieldset>
+<br>
+<fieldset>
+ <legend>Medical History</legend>
+
+<label for="medicality"></label>
+<input type="checkbox" id="checkbox" value="Smallpox">Smallpox
+<input type="checkbox" id="checkbox" value="Mumps">Mumps
+<input type="checkbox" id="checkbox" value="Dizziness">Dizziness
+<input type="checkbox" id="checkbox" value="Snizzing">Snizzing<br>
+
+</fieldset>
+ 
+<fieldset>
+ <legend>Current Medication</legend>
+  <label for ="Current medication"></label>
+ <p>Are you taking any medication?
+ <input type="radio" id="radio" value="yes">YES
+ <input type="radio" id="radio" value="no">NO</p>
+ <p>if you are currently taking medication,please indicate it in the space below:<p>
+ <textarea rows="3" cols="50">
+ </textarea>
+ </fieldset> <br>
+ <label for ="lname" ></label>
+ <input type ="submit">
+ <label for ="lname" ></label>
+ <input type ="Reset">
+
